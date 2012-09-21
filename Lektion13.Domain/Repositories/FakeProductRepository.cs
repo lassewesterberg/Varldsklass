@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using Lektion13.Domain.Entities;
+using Varldsklass.Domain.Entities;
 
-namespace Lektion13.Domain.Repositories
+namespace Varldsklass.Domain.Repositories
 {
     public class FakeProductRepository : FakeRepository<Product>, IProductRepository
     {

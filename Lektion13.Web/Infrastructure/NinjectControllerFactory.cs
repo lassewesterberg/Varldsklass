@@ -4,12 +4,12 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Ninject;
-using Lektion13.Domain.Repositories.Abstract;
-using Lektion13.Domain.Entities;
-using Lektion13.Domain.Repositories;
+using Varldsklass.Domain.Repositories.Abstract;
+using Varldsklass.Domain.Entities;
+using Varldsklass.Domain.Repositories;
 using System.Configuration;
 
-namespace Lektion13.Web.Infrastructure
+namespace Varldsklass.Web.Infrastructure
 {
     public class NinjectControllerFactory : DefaultControllerFactory
     {

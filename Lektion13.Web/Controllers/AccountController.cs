@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.Security;
-using Lektion13.Web.ViewModels;
+using Varldsklass.Web.ViewModels;
 
-namespace Lektion13.Web.Controllers
+namespace Varldsklass.Web.Controllers
 {
     public class AccountController : Controller
     {

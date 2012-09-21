@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using Lektion13.Domain.Repositories.Abstract;
-using Lektion13.Domain.Entities.Abstract;
-using Lektion13.Domain.Contexts;
+using Varldsklass.Domain.Repositories.Abstract;
+using Varldsklass.Domain.Entities.Abstract;
+using Varldsklass.Domain.Contexts;
 using System.Data.Objects;
 using System.Data.Entity;
 
-namespace Lektion13.Domain.Repositories
+namespace Varldsklass.Domain.Repositories
 {
     public class Repository<T> : IRepository<T> where T : class, IEntity
     {

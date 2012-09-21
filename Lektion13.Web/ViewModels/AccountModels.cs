@@ -5,7 +5,7 @@ using System.Globalization;
 using System.Web.Mvc;
 using System.Web.Security;
 
-namespace Lektion13.Web.ViewModels
+namespace Varldsklass.Web.ViewModels
 {
 
     public class ChangePasswordViewModel

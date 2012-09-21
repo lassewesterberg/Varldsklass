@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Data.Entity;
-using Lektion13.Domain.Entities;
-using Lektion13.Domain.Repositories.Abstract;
+using Varldsklass.Domain.Entities;
+using Varldsklass.Domain.Repositories.Abstract;
 
-namespace Lektion13.Domain.Repositories
+namespace Varldsklass.Domain.Repositories
 {
     public interface IProductRepository : IRepository<Product>
     {

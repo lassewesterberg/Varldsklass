@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using Lektion13.Domain.Entities.Abstract;
-using Lektion13.Domain.Repositories.Abstract;
+using Varldsklass.Domain.Entities.Abstract;
+using Varldsklass.Domain.Repositories.Abstract;
 using System.Data.Entity;
 
-namespace Lektion13.Domain.Repositories
+namespace Varldsklass.Domain.Repositories
 {
     public class FakeRepository<T> : IRepository<T> where T : class, IEntity
     {

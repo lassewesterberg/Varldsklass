@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Lektion13.Domain.Entities;
+using Varldsklass.Domain.Entities;
 
-namespace Lektion13.Tests.Helpers
+namespace Varldsklass.Tests.Helpers
 {
     public class ObjectMother
     {

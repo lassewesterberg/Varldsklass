@@ -3,12 +3,12 @@ using System.Text;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Lektion13.Domain.Entities;
-using Lektion13.Domain.Repositories.Abstract;
-using Lektion13.Domain.Repositories;
-using Lektion13.Tests.Helpers;
+using Varldsklass.Domain.Entities;
+using Varldsklass.Domain.Repositories.Abstract;
+using Varldsklass.Domain.Repositories;
+using Varldsklass.Tests.Helpers;
 
-namespace Lektion13.Tests
+namespace Varldsklass.Tests
 {
     // Dessa tester testar eg. inget vettigt (eller rättare sagt - de testar FakeRepository-implementationen)
     //
