@@ -7,11 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{51FA4B
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Varldsklass.Web", "Lektion13.Web\Varldsklass.Web.csproj", "{F024D757-324F-42C6-AAE6-C3A8FCCFD2B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Varldsklass.Web", "Varldsklass.Web\Varldsklass.Web.csproj", "{F024D757-324F-42C6-AAE6-C3A8FCCFD2B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Varldsklass.Tests", "Lektion13.Tests\Varldsklass.Tests.csproj", "{C138CCF4-5353-4C64-A324-0196C9A90033}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Varldsklass.Tests", "Varldsklass.Tests\Varldsklass.Tests.csproj", "{C138CCF4-5353-4C64-A324-0196C9A90033}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Varldsklass.Domain", "Lektion13.Domain\Varldsklass.Domain.csproj", "{4B4AA2CE-6B2B-4AF0-8E37-E076BB294A7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Varldsklass.Domain", "Varldsklass.Domain\Varldsklass.Domain.csproj", "{4B4AA2CE-6B2B-4AF0-8E37-E076BB294A7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
