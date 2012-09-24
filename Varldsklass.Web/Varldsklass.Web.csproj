@@ -78,6 +78,37 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\foundation\humans.txt" />
+    <Content Include="Content\foundation\images\foundation\orbit\bullets.jpg" />
+    <Content Include="Content\foundation\images\foundation\orbit\left-arrow-small.png" />
+    <Content Include="Content\foundation\images\foundation\orbit\left-arrow.png" />
+    <Content Include="Content\foundation\images\foundation\orbit\loading.gif" />
+    <Content Include="Content\foundation\images\foundation\orbit\mask-black.png" />
+    <Content Include="Content\foundation\images\foundation\orbit\pause-black.png" />
+    <Content Include="Content\foundation\images\foundation\orbit\right-arrow-small.png" />
+    <Content Include="Content\foundation\images\foundation\orbit\right-arrow.png" />
+    <Content Include="Content\foundation\images\foundation\orbit\rotator-black.png" />
+    <Content Include="Content\foundation\images\foundation\orbit\timer-black.png" />
+    <Content Include="Content\foundation\javascripts\app.js" />
+    <Content Include="Content\foundation\javascripts\foundation.min.js" />
+    <Content Include="Content\foundation\javascripts\jquery.foundation.accordion.js" />
+    <Content Include="Content\foundation\javascripts\jquery.foundation.alerts.js" />
+    <Content Include="Content\foundation\javascripts\jquery.foundation.buttons.js" />
+    <Content Include="Content\foundation\javascripts\jquery.foundation.forms.js" />
+    <Content Include="Content\foundation\javascripts\jquery.foundation.mediaQueryToggle.js" />
+    <Content Include="Content\foundation\javascripts\jquery.foundation.navigation.js" />
+    <Content Include="Content\foundation\javascripts\jquery.foundation.orbit.js" />
+    <Content Include="Content\foundation\javascripts\jquery.foundation.reveal.js" />
+    <Content Include="Content\foundation\javascripts\jquery.foundation.tabs.js" />
+    <Content Include="Content\foundation\javascripts\jquery.foundation.tooltips.js" />
+    <Content Include="Content\foundation\javascripts\jquery.foundation.topbar.js" />
+    <Content Include="Content\foundation\javascripts\jquery.js" />
+    <Content Include="Content\foundation\javascripts\jquery.placeholder.js" />
+    <Content Include="Content\foundation\javascripts\modernizr.foundation.js" />
+    <Content Include="Content\foundation\robots.txt" />
+    <Content Include="Content\foundation\stylesheets\app.css" />
+    <Content Include="Content\foundation\stylesheets\foundation.css" />
+    <Content Include="Content\foundation\stylesheets\foundation.min.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />

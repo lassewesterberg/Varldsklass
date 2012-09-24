@@ -28,7 +28,7 @@ namespace Varldsklass.Web.Controllers
 
             var filteredCategories = categoryRepo.FindAll(c => c.Name.Contains("sport"));
 
-            var category = categoryRepo.FindByID(0);
+            var category = categoryRepo.FindByID(1);
 
             category.Name = "New Name!";
             categoryRepo.Save(category);
