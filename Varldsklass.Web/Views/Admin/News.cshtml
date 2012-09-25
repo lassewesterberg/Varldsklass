@@ -1,0 +1,15 @@
+﻿@model Varldsklass.Web.Models.News
+@{
+    ViewBag.Title = "Nyheter";
+}
+
+<h2>Nyheter</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.ValidationSummary()
+    <p>Rubrik: @Html.TextBoxFor(x => x.Headline)</p>
+    <p>Ingress: @Html.TextBoxFor(x => x.Ingress)</p>
+    <p>Text:@Html.TextBoxFor(x => x.Text)</p>
+    <input type="submit" value="Spara" />
+}
