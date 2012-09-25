@@ -11,7 +11,6 @@
     <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
 </head>
 <body>
     <div class="page">
@@ -25,7 +24,7 @@
                 </div>
             </div>
             <div class="row">
-                <nav class="six columns centered">
+                <nav class="six columns">
                     <ul id="menu" class="nav-bar">
                         <li>@Html.ActionLink("Home", "Index", "Home")</li>
                         <li>@Html.ActionLink("About", "About", "Home")</li>
@@ -34,14 +33,12 @@
                 </nav>
             </div>
         </header>
-
         <section id="main" class="row">
             @RenderBody()
         </section>
         <footer class="row">
         </footer>
     </div>
-
     <script src="@Url.Content("~/Content/foundation/javascripts/foundation.min.js")" type="text/javascript"></script>
     <script src="@Url.Content("~/Content/foundation/javascripts/app.js")" type="text/javascript"></script>
 </body>

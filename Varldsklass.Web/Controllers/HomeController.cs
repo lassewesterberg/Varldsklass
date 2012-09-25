@@ -36,22 +36,6 @@ namespace Varldsklass.Web.Controllers
             categoryRepo.Delete(category);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             ProductRepository productRepo = new ProductRepository();
 
             var products = productRepo.FindAll(); // + övriga "grund"-metoder
